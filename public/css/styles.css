@@ -1,0 +1,112 @@
+* {
+    font-family: 'Roboto';
+  }
+
+  body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+  }
+
+  header {
+    background-color:#06AA48;
+    border-bottom: 1px solid #CCC;
+  }
+  /* navbar */
+#navbar img {
+    margin-left: 10px;
+    width: 40px;
+}
+#navbar {
+    justify-content: space-between;
+    background-color:#06AA48;
+    padding: 5px 0;
+}
+#navbar a {
+    font-size: 14px;
+    color: #fdfdfd;
+}
+#navbar a:hover {
+    color: #d4d2d0;
+}
+/*MAIN*/
+#main-text-container {
+    display: flex;
+    justify-content: center;
+}
+.main-text {
+    font-size: 60px;
+    margin: 30px 0;
+}
+.table th,
+.table td {
+    padding: 8px;
+    text-align: center;
+}
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table p {
+    font-size: 15px;
+    margin: 7px 0;
+}
+.table p:first-of-type {
+    font-weight: bold;
+}
+.table td:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+/*Create schedule*/
+.form-group {
+    margin: 10px 0px;
+}
+.custom-select {
+    margin: 3px 0;
+    display: block;
+}
+ .radio-check {
+    width: 75%;
+    margin-top: 7px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.radio-check .form-check {
+    margin-right: 10px;
+}
+/*DEPOIS*/
+.msg {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+  }
+#info-container .already-joined-msg {
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #B8DAFF;
+    padding: 10px;
+    width: 275px;
+}
+/*footer*/
+footer {
+    text-align: center;
+    background-color: #353E48;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer p {
+    margin-bottom: 0;
+  }
+.mt-2 {
+    margin-top: 2rem;
+}
